@@ -10,8 +10,7 @@ body{
 .container_header{
     width: 100%;
     height: 85vh;
-    float: left;
-    border: solid rgb(5, 3, 14) 1px;
+    float: left
 }
 video{   
     margin-top:-200px ;
@@ -22,7 +21,8 @@ video{
     float: left;
 }
 section{
-    height: 1000px;
+    height: 5100px;
+    width: 100%;
 }
 .container_section{
     width: 100%;
@@ -37,18 +37,22 @@ section{
 .plus{
     width: 100%;
     max-width: 100%;
-
+}
+.space{
+    width: 100%;
+    height: auto;
 }
 .ti{
     width: 100%;
+    height: auto;
 }
 .container_footer{
     width: 100%;
     height: 50vh;
     float: right;
 }
-.blood{
+footer{
     width: 100%;
-    padding-top:1000px ;
+    height: 1000px;
+    float: left;
 }
-    

@@ -5,14 +5,50 @@
 body{
     background-color: #000000;
     margin: 0%;
+    font-size:62.5%;
 }
-video{
-    position: fixed;
-    min-width: 100%;
-    min-height: 70%;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
+.container_header{
+    width: 100%;
+    height: 85vh;
+    float: left;
+    border: solid rgb(5, 3, 14) 1px;
+}
+video{   
+    margin-top:-200px ;
+    width: 100%;
+    height: 100vh;
     opacity: 0.6;
+    position: absolute;;
+    float: left;
 }
+section{
+    height: 1000px;
+}
+.container_section{
+    width: 100%;
+    height: 130vh;
+    float: left;
+}
+.radiant{
+    width: 100%;
+    opacity: .6;
+    z-index: -1;
+}
+.plus{
+    width: 100%;
+    max-width: 100%;
+
+}
+.ti{
+    width: 100%;
+}
+.container_footer{
+    width: 100%;
+    height: 50vh;
+    float: right;
+}
+.blood{
+    width: 100%;
+    padding-top:1000px ;
+}
+    

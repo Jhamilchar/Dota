@@ -1,58 +1,134 @@
 *{
     box-sizing: border-box;
     font-family: "Radiance","Noto Sans",sans-serif;
+    list-style: none;
 }
 body{
+    font-size:62.5%;
+    width: 100%;
+    height: 100%;
     background-color: #000000;
     margin: 0%;
-    font-size:62.5%;
+        
 }
+/* This is my header */
 .container_header{
     width: 100%;
-    height: 85vh;
-    float: left
-}
-video{   
-    margin-top:-200px ;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.6;
-    position: absolute;;
+    height: 80vh;
     float: left;
 }
-section{
-    height: 5100px;
+.video{
     width: 100%;
-}
-.container_section{
-    width: 100%;
-    height: 130vh;
-    float: left;
-}
-.radiant{
-    width: 100%;
-    opacity: .6;
+    height: 72%;
+    object-fit: cover;
+    position: fixed;
     z-index: -1;
+    opacity: .6;
+    position: absolute;
 }
-.plus{
+.microheader_top{
+    top: 0%;
     width: 100%;
-    max-width: 100%;
+    z-index: 9999;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 0%;
+    padding-top: 9px;
+    align-items: center;
+}
+.microheader_left{
+    font-family: "Reaver",serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0% 2.6%;
+    text-transform: uppercase;
+}
+.dota2_logo{
+    width: 200px;
+    min-width: 120px;
+    height: 40px;
+    min-height: 30px;
+    opacity: .8;
+    margin-right: 55px;
+}
+.microheader_left ul {
+    padding-left: 0%;
+}
+.microheader_left a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    opacity: .8;
+    padding-right: 1.7rem;
+    font-family: Reaver, serif;
+}
+.microheader_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 22%;
+}
+.microheader_right ul li a{
+    text-decoration: none;
+}
+.microheader_right a{
+    letter-spacing: 0.5px; 
+}
+.microheader_right ul{
+    text-align: right;
+}
+.sesion{
+    text-align: right;
+    color: #ffffff;
+}
+.idioms{
+    color: rgb(153, 153, 153);
+    font: 14px;
+}
+.button{
+    border:solid rgb(153, 153, 153) 0.2rem;
+    border-radius: 6px 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 13px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+    font-family: Radiance, "Noto Sans", sans-serif;;
+    font-weight: 200;
+    font-size: 21px;
+}
+/* This is my content */
+.container_section{
+    width:100%;
+    background-size: cover; 
+    float: left; 
+}
+.r_d{
+    width: 100%;
+    opacity: .8;
+    padding-top: 4%;
+    padding-bottom:47%;
+
 }
 .space{
     width: 100%;
-    height: auto;
+    background-size: 100% ; 
+    padding-top: 0%; 
+    padding-bottom:13% ; 
+}
+.multi_hero{
+    width: 100%;
+    padding-bottom: 10%;
 }
 .ti{
     width: 100%;
-    height: auto;
 }
-.container_footer{
-    width: 100%;
-    height: 50vh;
-    float: right;
-}
-footer{
-    width: 100%;
-    height: 1000px;
-    float: left;
-}
+

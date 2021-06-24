@@ -38,15 +38,16 @@ body{
     padding-left: 0%;
     padding-top: 9px;
     align-items: center;
+    justify-content:space-between;
 }
 .microheader_left{
     font-family: "Reaver",serif;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing:0.2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0% 2.6%;
+    padding: 0% 2.4%;
     text-transform: uppercase;
 }
 .dota2_logo{
@@ -72,35 +73,42 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 22%;
+    padding-left: 21rem;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    
 }
 .microheader_right ul li a{
     text-decoration: none;
 }
 .microheader_right a{
-    letter-spacing: 0.5px; 
+    letter-spacing: 0.1rem; 
 }
 .microheader_right ul{
     text-align: right;
 }
+.microheader_right li{
+    margin-bottom: 7px;
+}
 .sesion{
     text-align: right;
     color: #ffffff;
+    letter-spacing: 1px;
 }
 .idioms{
     color: rgb(153, 153, 153);
-    font: 14px;
+    font: 1rem;
 }
 .button{
     border:solid rgb(153, 153, 153) 0.2rem;
     border-radius: 6px 8px;
     display: flex;
     flex-direction: row;
-    padding: 13px 30px;
+    padding: 11px 30px;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 1.5rem;
     font-family: Radiance, "Noto Sans", sans-serif;;
     font-weight: 200;
     font-size: 21px;

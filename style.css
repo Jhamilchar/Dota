@@ -29,16 +29,18 @@ body{
 .microheader_top{
     top: 0%;
     width: 100%;
+    height: auto;
     z-index: 9999;
     background-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     font-size: 1rem;
     padding-left: 0%;
-    padding-top: 9px;
+    padding-top: 5px;
     align-items: center;
-    justify-content:space-between;
+    flex-wrap: nowrap
 }
 .microheader_left{
     font-family: "Reaver",serif;
@@ -69,14 +71,17 @@ body{
     padding-right: 1.7rem;
     font-family: Reaver, serif;
 }
+.space_1{
+    margin: 0% 10% 0% 10%;
+}
 .microheader_right{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 21rem;
+    padding-left: auto;
+    padding-right: 70px;
     font-weight: lighter;
     font-size: 0.9rem;
-    
 }
 .microheader_right ul li a{
     text-decoration: none;
@@ -100,24 +105,176 @@ body{
     font: 1rem;
 }
 .button{
-    border:solid rgb(153, 153, 153) 0.2rem;
-    border-radius: 6px 8px;
+    border: #ffffff90 3px solid;
     display: flex;
+    flex-direction:row ;
+    align-items: center;
+    color: #ffffff90 2.5px;
+    padding: 18px 32px;
+    border-radius: 6px 8px;
+    margin-left: 1.2rem;
+}
+.button_1{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//icons/steam_icon.svg");
+}
+.button_2{
+     display: flex;
     flex-direction: row;
-    padding: 11px 30px;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    margin-left: 1.5rem;
+
     font-family: Radiance, "Noto Sans", sans-serif;;
     font-weight: 200;
-    font-size: 21px;
+    font-size: 1.2rem;   
 }
+.microheader_section{
+    height: 100%;
+    width: fit-content;
+    max-width: 60%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+    .h1{
+        font-size: 4rem;
+        line-height:102%;
+        font-family: "Reaver",serif;
+        letter-spacing: 3px;
+        font-weight: 900;
+        color: #ffffffee;
+        text-shadow: 0px 0px 20px #000;
+        padding-top: 15%;
+    }
+    .destructoid{
+        margin-top: 5px;
+        margin-bottom: 21px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff90;
+        letter-spacing: 2px;
+        font-family: "Radiance",sans-serif;
+    }
+    .horiz_bar{
+        width: 80px;
+        height: 3px;
+        min-height: 3px;
+        border-radius: 1px;
+        background-color: #ff6046;
+    }
+    .button_secundary{
+        width: 287px;
+        height: 78px;
+        border-radius: 6px;
+        border: 3px solid #ffffff90;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+        cursor: pointer;       
+    }
+        .steam_logo{
+            background-image: url("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//icons/steam_icon.svg");
+            width: 32px;
+            height: 32px;
+            margin: 0px 15px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .play_download{
+            display: flex;
+            flex-direction: column;
+        }
+            .play{
+                color: #fff;
+                font-size: 26px;
+                
+            }
+            .download{
+                color: #ffffff90;
+                font-size: 12px;           
+                letter-spacing: 2.3px;
+            }
+.microheader_bottom{
+    width: 100%;
+    height: auto;
+    padding: 0% 15% ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+    .micro_top{
+        display: flex;
+        flex-direction: row;
+    }
+        .ultimate{
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 4px;
+            font-weight: bold;
+            padding-bottom: 2%;
+        }
+        .all{
+            color:#ffffff90;
+            font-size: 15px;
+            letter-spacing: 4px;
+            font-weight: 500;
+            padding-left: 2%;
+            padding-bottom: 2%;
+        }
+    .micro_bot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        .pango{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            background-size: cover;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            display: flex;
+            z-index: 9999;
+            padding-right: 2%;
+        }
+        .mid_ti{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            background-size: cover;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            display: flex;
+            z-index: 9999;
+        }
+        .pudge-ardilla{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            background-size: cover;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            display: flex;
+            z-index: 9999;
+            padding-left: 2%;
+        }
+
 /* This is my content */
 .container_section{
-    width:100%;
+    max-width:100%;
+    height: 100%;
+    height: auto;
     background-size: cover; 
-    float: left; 
 }
 .r_d{
     width: 100%;

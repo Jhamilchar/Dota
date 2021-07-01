@@ -47,7 +47,7 @@ body{
     width: 100%;
     height: 50vh;
 }
-.microheader_left{
+.microheader-top_left{
     font-family: "Reaver",serif;
     font-weight: 600;
     letter-spacing:0.2rem;
@@ -63,10 +63,10 @@ body{
         height: 50px;
         min-height: 50px;
 }
-.microheader_left ul {
+.microheader-top_left ul {
     padding-left: 0%;
 }
-.microheader_left a{
+.microheader-top_left a{
     font-size: 1.2rem;
     text-decoration: none;
     color: #fff;
@@ -75,9 +75,9 @@ body{
     font-family: Reaver, serif;
 }
 .space_1{
-    margin: 0% 10% 0% 10%;
+    margin: 0% 10%;
 }
-.microheader_right{
+.microheader-top_right{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -86,16 +86,16 @@ body{
     font-weight: lighter;
     font-size: 0.9rem;
 }
-.microheader_right ul li a{
+.microheader-top_right ul li a{
     text-decoration: none;
 }
-.microheader_right a{
+.microheader-top_right a{
     letter-spacing: 0.1rem; 
 }
-.microheader_right ul{
+.microheader-top_right ul{
     text-align: right;
 }
-.microheader_right li{
+.microheader-top_right li{
     margin-bottom: 7px;
 }
 .sesion{
@@ -428,13 +428,16 @@ body{
     text-align: center;
     align-items: center;
 }
-    h1{
+    h1 span{
         font-family: "Reaver",serif;
         font-weight: 900;
         font-size: 7rem;
         color: #fff;
         letter-spacing: 2px;
         margin-bottom: 0%;
+    }
+    .separador{
+        display: block;
     }
     .horiz_mid_2{
         width: 80px;
@@ -464,6 +467,9 @@ body{
     flex-direction: column;
     padding-top: 4%;
 }   
+    .recor{
+        width: 55%;
+    }
         .unete{
             font-family: Reaver,serif;
             font-weight: 600;
@@ -471,7 +477,7 @@ body{
             color: #e2dace;
             line-height: 105%;
             padding-top: 7%;
-            padding-left: 10%;
+            padding-left: 17%;
         }
         .batalla{
             font-family: Reaver,serif;
@@ -480,7 +486,7 @@ body{
             color: #fff;
             letter-spacing: 4px;
             padding-top: 7%;
-            padding-left: 10%;
+            padding-left: 17%;
         }
         .horiz_mid_3{
             width: 80px;
@@ -529,7 +535,7 @@ body{
     color: #ffffff90;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0% 40%;
     text-align: center;
     font-size: 12px;
 }
